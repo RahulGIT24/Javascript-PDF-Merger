@@ -10,7 +10,7 @@
 
 # Working of this Project
 
-<img src="Images/gif.gif" align="center">
+<img src="Images/gif1.gif" align="center">
 
 <h3> You can follow me on Instagram for various projects on web development and basic DSA questions</h3>
 
