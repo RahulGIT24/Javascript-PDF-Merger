@@ -10,6 +10,19 @@
 
     <title>PDF Merger</title>
   </head>
+  <style>
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">PDF Merger</a>
@@ -35,11 +48,13 @@
       </nav>
     <div class="container my-3">
         <h1 class="text-center">Your favourite merger Tool</h1>
-        <form method="post" action="/merge" enctype="multipart/form-data">
+        <form method="post" action="/merge" enctype="multipart/form-data" class="my-3">
             <div class="form-group">
               <label for="exampleFormControlFile1">Select the PDF Files you want to merge</label>
               <input type="file" name="pdf" class="form-control-file" id="exampleFormControlFile1" multiple accept=".pdf">
-              <input class="btn btn-primary my-3" type="submit" value="Submit">
+              <div class="button">
+                <input class="btn btn-primary my-3" type="submit" value="Submit">
+              </div>
             </div>
           </form>
     </div>
